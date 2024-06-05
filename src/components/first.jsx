@@ -59,8 +59,8 @@ export function First() {
               </Link>
               <Link
                 className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-white px-8 text-sm font-medium text-white shadow-sm transition-colors hover:bg-white hover:text-[#5f27cd] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800"
-                href="#">
-                Learn More
+                href="https://chat.whatsapp.com/DK9chB0LMjpBu2tQEELxxj">
+                Join WhatsApp Group
               </Link>
             </div>
           </div>
