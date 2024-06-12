@@ -26,6 +26,7 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
+import { Timeline } from "./timeline";
 
 export function First() {
   return (
@@ -33,7 +34,7 @@ export function First() {
       <header className="px-4 lg:px-6 h-14 flex items-center justify-between">
         <Link className="flex items-center" href="#">
           <FolderSyncIcon className="h-6 w-6" />
-          <span className="sr-only">SynapseRise</span>
+          <span className="sr-only">InnoTheHack</span>
         </Link>
         <div className="flex items-center gap-4">
           <div className="text-sm text-gray-500" />
@@ -46,7 +47,7 @@ export function First() {
             className="container px-4 md:px-6 flex flex-col items-center text-center space-y-6 md:space-y-10">
             <h1
               className="text-4xl font-bold tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl animate-bounce">
-              SynapseRise Hackathon
+              InnoTheHack
             </h1>
             <p className="max-w-[700px] text-lg text-gray-200 md:text-xl lg:text-2xl">
               Connecting talent, igniting ideas, and solving campus problems through technology.
@@ -99,7 +100,7 @@ export function First() {
               Join the Movement
             </h2>
             <p className="max-w-[700px] text-lg text-gray-200 md:text-xl lg:text-2xl">
-              Be part of the SynapseRise Hackathon and help shape the future of campus technology.
+              Be part of the InnoTheHack and help shape the future of campus technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -114,6 +115,9 @@ export function First() {
               </Link>
             </div>
           </div>
+        </section>
+        <section>
+          <Timeline />
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div
@@ -213,7 +217,7 @@ export function First() {
       <footer
         className="flex flex-col gap-4 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          <p className="text-xs text-gray-500">© 2024 SynapseRise. All rights reserved.</p>
+          <p className="text-xs text-gray-500">© 2024 InnoTheHack. All rights reserved.</p>
           <nav className="flex gap-4 sm:gap-6">
             <Link
               className="text-xs hover:underline underline-offset-4 text-gray-500"
